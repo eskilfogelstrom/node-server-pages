@@ -1,0 +1,13 @@
+<?nsp
+const os = require('os');
+const foo = os.hostname();
+?>
+<html>
+<body>
+{{foo}}
+<script>
+const foo = "{{os.hostname()}}";
+alert(foo);
+</script>
+</body>
+</html>
